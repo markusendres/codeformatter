@@ -34,6 +34,7 @@ namespace CodeFormatter
                 Console.WriteLine("    <verbose>    - Verbose output");
                 Console.WriteLine("    <nounicode>  - Do not convert unicode strings to escape sequences");
                 Console.WriteLine("    <nocopyright>- Do not update the copyright message.");
+                Console.ReadLine();
                 return -1;
             }
 
